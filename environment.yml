@@ -1,0 +1,8 @@
+---
+name: checklinks
+channels:
+  - conda-forge
+
+dependencies:
+  - beautifulsoup4
+  - python>=3.9

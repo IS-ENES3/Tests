@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 
 print("Checking links for the IS-ENES3 site at \
-       https://is-enes3.github.io/IS-ENES-Website/")
+       https://is.enes.org")
 
 ignore_links = ["http://foundation.zurb.com/"]
 error_codes = ["404"]
@@ -96,5 +96,5 @@ def _test_link(link):
 # run routine
 # pass the site you need checking as first arg
 # pass the prefix of secondary links as second arg
-_check_site("https://is-enes3.github.io/IS-ENES-Website/",
-            "https://is-enes3.github.io/IS-ENES-Website/")
+_check_site("https://is.enes.org/",
+            "https://is.enes.org/")

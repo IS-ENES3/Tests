@@ -8,7 +8,10 @@ from bs4 import BeautifulSoup
 print("Checking links for the IS-ENES3 site at \
        https://is.enes.org")
 
-ignore_links = ["http://foundation.zurb.com/"]
+ignore_links = [
+    "http://foundation.zurb.com/",  # this is part of Phlow crap
+    "https://mpimet.mpg.de/en/home.html",  # this actually works
+]
 error_codes = ["404"]
 
 # mainfunc
